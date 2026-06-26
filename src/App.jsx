@@ -26,7 +26,7 @@ const skills = [
   { name: 'Express.js', level: 90 },
   { name: 'MongoDB', level: 88 },
   { name: 'AWS', level: 75 },
-  { name: 'Docker', level: 70 },
+  // { name: 'Docker', level: 70 },
   { name: 'Git', level: 85 },
   { name: 'GitHub', level: 85 },
   { name: 'Postman', level: 95 }
