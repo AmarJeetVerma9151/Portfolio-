@@ -17,7 +17,6 @@ import {
 } from 'react-icons/fa';
 import './index.css';
 
-
 // --- Data ---
 const skills = [
   { name: 'React.js', level: 90 },
@@ -30,7 +29,8 @@ const skills = [
   { name: 'Git', level: 85 },
   { name: 'GitHub', level: 85 },
   { name: 'Postman', level: 95 }
-];
+];  
+
 
 const projects = [
   {
@@ -39,7 +39,7 @@ const projects = [
     tech: ['Node.js', 'Express.js', 'MongoDB', 'JWT'],
     live: 'https://algo-saas-client.vercel.app',
     github: 'https://github.com/AmarJeetVerma9151',
-    img: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800'
+    img: 'https://tse3.mm.bing.net/th/id/OIP.yenh6srvXPL2d7qqCEsG7gHaDy?pid=Api&P=0&h=180'
   },
   {
     title: 'Notebook IAS',
@@ -47,7 +47,7 @@ const projects = [
     tech: ['Node.js', 'Express.js', 'MongoDB', 'React'],
     live: 'https://notebook-ias-web.vercel.app',
     github: 'https://github.com/AmarJeetVerma9151',
-    img: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800'
+    img: 'https://www.readynez.com/media/r3zjlnkm/3-study-strategies-and-resources-for-success.webp?rmode=max&width=778&height=437'
   },
   {
     title: 'Gas Agency Management',
@@ -61,9 +61,9 @@ const projects = [
     title: 'Rental Management System',
     desc: 'Platform to manage properties,rooms, tenants, and owners payments management.',
     tech: ['Node.js', 'Express.js', 'MongoDB',"React.js"],
-    live: '#',
+    live: 'https://room-rent-admin.vercel.app',
     github: 'https://github.com/AmarJeetVerma9151',
-    img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800'
+    img: 'https://tse3.mm.bing.net/th/id/OIP.uv2B284-X3xbWPHqmW4ivgHaEK?pid=Api&P=0&h=180'
   },
   {
     title: 'Hoistenger',
@@ -71,15 +71,15 @@ const projects = [
     tech: ['HTML5', 'CSS3', 'JavaScript',"Node.js", "MongoDB"],
     live: 'https://hosting-three-tau.vercel.app/',
     github: 'https://github.com/AmarJeetVerma9151',
-    img: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800'
+    img: 'https://tse4.mm.bing.net/th/id/OIP.9X5Y9MH6JIRTiL0THuPfUwHaEK?pid=Api&P=0&h=180'
   },
-  {
-    title: 'Notification Management',
+   {
+    title: 'Styky',
     desc: 'Scalable service for sending emails and SMS notifications using Nodemailer and message queues.',
-    tech: ['Node.js', 'Nodemailer', 'MongoDB'],
-    live: '#',
+    tech: ['Node.js', 'Nodemailer', 'MongoDB', 'express.js'],
+    live: 'https://styky-admin.vercel.app/auth/signin',
     github: 'https://github.com/AmarJeetVerma9151',
-    img: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?auto=format&fit=crop&q=80&w=800'
+    img: 'https://styky.in/img/logo.png?auto=format&fit=crop&q=80&w=800'
   }
 ];
 
@@ -363,6 +363,7 @@ export default function App() {
                       File Upload Management, and API Security Best Practices. Adept at optimizing application performance, 
                       maintaining code quality, and delivering reliable backend solutions with a focus on continuous 
                       improvement and problem-solving.
+                      
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '4rem', flexWrap: 'wrap' }}>
                       <div style={{ textAlign: 'center' }}>
@@ -599,7 +600,7 @@ export default function App() {
 
           <footer>
             <div className="container">
-              <p style={{ color: '#aaa' }}>&copy; {new Date().getFullYear()} Amarjeet Verma. All rights reserved.</p>
+              <p style={{ color: '#aaa' }}>&copy; {new Date().getFullYear()} Amarjeet Verma | Backend Developer</p>
             </div>
           </footer>
         </motion.div>
