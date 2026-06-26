@@ -322,7 +322,7 @@ export default function App() {
                     <a href="#contact" className="btn btn-primary">
                       Contact Me <FaEnvelope size={20} />
                     </a>
-                    <a href="/amar-resume.pdf" download="amar-resume.pdf" className="btn btn-outline">
+                    <a href="/amar_jeet_resume.pdf" download="Amarjeet_Verma_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
                       Download Resume <FaDownload size={20} />
                     </a>
                   </motion.div>
