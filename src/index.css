@@ -310,12 +310,13 @@ nav.scrolled {
 .project-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   transition: transform 0.5s ease;
 }
 
 .project-card:hover .project-img img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .project-content {
@@ -350,7 +351,7 @@ nav.scrolled {
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 3rem;
   margin-top: 3rem;
 }
 
@@ -451,8 +452,26 @@ footer {
     background: #60A5FA;
   }
 
+  /* Contact section responsive fixes */
   .contact-container {
     grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact-section-glass {
+    padding: 2rem 1.25rem !important;
+  }
+
+  .contact-section-title {
+    font-size: 2rem !important;
+  }
+
+  .contact-form .btn {
+    width: 100%;
+  }
+
+  .form-control {
+    font-size: 16px; /* Prevents iOS zoom on focus */
   }
 
   .timeline::before {

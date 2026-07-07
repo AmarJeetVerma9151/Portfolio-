@@ -19,6 +19,7 @@ import './index.css';
 
 // --- Data ---
 const skills = [
+  { name: 'JavaScript', level: 88 },
   { name: 'React.js', level: 90 },
   { name: 'Next.js', level: 85 },
   { name: 'Node.js', level: 90 },
@@ -322,7 +323,7 @@ export default function App() {
                     <a href="#contact" className="btn btn-primary">
                       Contact Me <FaEnvelope size={20} />
                     </a>
-                    <a href="/amar_jeet_resume.pdf" download="Amarjeet_Verma_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+                    <a href="/Amarjeet_verma.pdf" download="Amarjeet_Verma_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
                       Download Resume <FaDownload size={20} />
                     </a>
                   </motion.div>
@@ -424,7 +425,7 @@ export default function App() {
                       <FaCode className="gradient-text" /> Frontend & Tools
                     </h3>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                      {skills.filter(s => ['React.js','Git',"GitHub",'Postman'].includes(s.name)).map((skill, index) => (
+                      {skills.filter(s => ["JavaScript",'Git',"GitHub",'Postman'].includes(s.name)).map((skill, index) => (
                         <motion.div key={index} variants={fadeInUp}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                             <span>{skill.name}</span>
@@ -529,11 +530,11 @@ export default function App() {
             <section className="section" id="contact">
               <div className="container">
                 <motion.div 
-                  className="glass" 
+                  className="glass contact-section-glass" 
                   style={{ padding: '4rem' }}
                   initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}
                 >
-                  <h2 style={{ fontSize: '3rem', marginBottom: '1rem', textAlign: 'center' }}>
+                  <h2 className="contact-section-title" style={{ fontSize: '3rem', marginBottom: '1rem', textAlign: 'center' }}>
                     <span className="gradient-text">Get In Touch</span>
                   </h2>
                   <p style={{ textAlign: 'center', color: '#aaa', marginBottom: '4rem' }}>
