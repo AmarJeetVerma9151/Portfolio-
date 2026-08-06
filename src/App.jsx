@@ -66,6 +66,7 @@ const projects = [
     github: 'https://github.com/AmarJeetVerma9151',
     img: 'https://tse3.mm.bing.net/th/id/OIP.uv2B284-X3xbWPHqmW4ivgHaEK?pid=Api&P=0&h=180'
   },
+  
   {
     title: 'Hoistenger',
     desc: 'Web hosting clone showcasing advanced frontend styling and responsive design techniques with full backend integration.',
