@@ -26,7 +26,8 @@ const skills = [
   { name: 'Express.js', level: 90 },
   { name: 'MongoDB', level: 88 },
   { name: 'AWS', level: 75 },
-  // { name: 'Docker', level: 70 },
+  { name: 'SQL', level: 90 },
+  { name: 'PostgreSQL', level: 60 },
   { name: 'Git', level: 85 },
   { name: 'GitHub', level: 85 },
   { name: 'Postman', level: 95 }
@@ -402,7 +403,7 @@ export default function App() {
                       <FaServer className="gradient-text" /> Backend & Database
                     </h3>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                      {skills.filter(s => ['Node.js', 'Express.js', 'MongoDB', 'AWS', 'Docker'].includes(s.name)).map((skill, index) => (
+                      {skills.filter(s => ['Node.js', 'Express.js', 'MongoDB','SQL','PostgreSQL','AWS', 'Docker'].includes(s.name)).map((skill, index) => (
                         <motion.div key={index} variants={fadeInUp}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                             <span>{skill.name}</span>
