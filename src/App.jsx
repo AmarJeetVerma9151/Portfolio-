@@ -33,7 +33,6 @@ const skills = [
   { name: 'Postman', level: 95 }
 ];  
 
-
 const projects = [
   {
     title: 'Algo Saas',
